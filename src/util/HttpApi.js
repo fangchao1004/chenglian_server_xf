@@ -1,7 +1,7 @@
 import Axios from 'axios'
 // export const URL = 'http://localhost:3110/'///小木服务器数据库 3008正式 3010测试
 export const XUNFEIURL = 'http://60.166.13.169:6677/api/v1'; ///讯飞服务器地址
-export var appKey = 'TestKey'; ///可变key 又讯飞提供
+export var appKey = 'TestKey'; ///可变key 讯飞提供
 export const CLURL = 'http://chengliankeji.cn:3110'
 // export var JAVASERVERURL = 'http://chengliankeji.cn/firstWeb_war'; ///JAVA tomcat 地址
 export var JAVASERVERURL = 'http://localhost:8080/firstWeb_war'
