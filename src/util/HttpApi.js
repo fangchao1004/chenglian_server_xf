@@ -3,8 +3,8 @@ import Axios from 'axios'
 export const XUNFEIURL = 'http://60.166.13.169:6677/api/v1'; ///讯飞服务器地址
 export var appKey = 'TestKey'; ///可变key 又讯飞提供
 export const CLURL = 'http://chengliankeji.cn:3110'
-export var JAVASERVERURL = 'http://chengliankeji.cn/firstWeb_war'; ///JAVA tomcat 地址
-// export var JAVASERVERURL = 'http://localhost:8080/firstWeb'
+// export var JAVASERVERURL = 'http://chengliankeji.cn/firstWeb_war'; ///JAVA tomcat 地址
+export var JAVASERVERURL = 'http://localhost:8080/firstWeb_war'
 /////////////////////////////////////////////
 export const EXTRA_APP_KEY = `?appKey=${appKey}`;
 // export const XUNFEIURLWD = `${XUNFEIURL}/wd/`; ///获取数据字典 get
